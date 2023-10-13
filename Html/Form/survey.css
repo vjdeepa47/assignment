@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #235e5e;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(21, 134, 115, 0.2);
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+}
+
+#date-of-birth,
+#male,
+#female {
+  margin-left: 20px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+#country {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.gender-label {
+  margin-top: 10px;
+}
+
+.gender-row {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin: 0 5px;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #080808;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-reset {
+  background-color: #e74c3c;
+  margin-right: 10px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup h2 {
+  color: #3498db;
+}
+
+.popup p {
+  margin: 10px 0;
+}
+
+.popup p strong {
+  color: #333;
+}
